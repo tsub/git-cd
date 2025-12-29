@@ -12,6 +12,8 @@ With [fisherman]
 $ fisher tsub/git-cd
 ```
 
+[fisherman]: https://github.com/fisherman/fisherman
+
 ## Usage
 
 Jump to Git project root directory.
@@ -38,7 +40,9 @@ $ pwd
 /Users/tsub/sandbox/git-cd/functions
 ```
 
-[fisherman]: https://github.com/fisherman/fisherman
+## Completions
+
+Fish loads `completions/git-cd.fish` to enable tab completion of paths relative to the Git project’s root directory.
 
 ## FAQ
 

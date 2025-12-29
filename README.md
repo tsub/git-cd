@@ -6,13 +6,13 @@
 
 ## Install
 
-With [fisherman]
+With [fisher]
 
 ```
 $ fisher tsub/git-cd
 ```
 
-[fisherman]: https://github.com/fisherman/fisherman
+[fisher]: https://github.com/jorgebucaran/fisher
 
 ## Usage
 

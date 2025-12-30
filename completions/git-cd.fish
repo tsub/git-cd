@@ -11,5 +11,5 @@ function __git_cd_dirs
   command find "$root" -mindepth 1 -type d -name .git -prune -o -type d -print0 2>/dev/null | string split0 | string replace -- "$root/" "" | string escape --
 end
 
-complete -c git-cd -f -a "(__git_cd_dirs)" -d "a directory under the Git repository root"
+complete -c git-cd -f -a "(__git_cd_dirs)"
 complete -c git-cd -s h -l help -d "Show help"
